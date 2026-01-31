@@ -7,22 +7,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
-      <table border="1" cellpadding="10" cellspacing="0">
+    <table border="1" cellpadding="10" cellsPacing="0" style="width:100%">
         <tr>
-            <td>
-                <table border="1" cellpadding="5" cellspacing="0">
-                    <tr>
-                        <th colspan="2">Nested Table 1</th>
-                    </tr>
-                    <tr>
-                        <td>Column 1</td>
-                        <td>Column 2</td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table border="1" cellpadding="5" cellspacing="0">
+            <td width="50%">
+                <table border="1" cellspacing="0" align="center" width="80%">
+					<thead>
                     <tr>
                         <th colspan="2">Nested Table 2</th>
                     </tr>
@@ -30,32 +19,58 @@
                         <th>Column 1</th>
                         <th>Column 2</th>
                     </tr>
+					</thead>
+					<tbody>
+					<tr>
+						<td>abc</td>
+						<td>def</td>
+					</tr>
+				    </tbody>
+                </table>
+			</td>
+
+			<td width="50%">
+				
+                <table border="1" cellspacing="0" align="center" width="80%">
+					<thead>
                     <tr>
-                        <td>Row 1</td>
-                        <td>Row 2</td>
+                        <th>Nested Table 1</th>
                     </tr>
+					</thead>
+					<tbody>
+                    <tr>
+					<td>	
+					  <ul>
+						<li>List item</li>
+						<li>List item</li>
+						<li>List item</li>
+				      </ul>
+					</td>	
+					</tr>
+					</tbody>
+                </table>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+                <table border="1" cellspacing="0" align="center" width="80%">
+					<thead>
+                    <tr>
+                        <th colspan="2">Nested Table 3</th>
+                    </tr>
+					</thead>
+					<tbody>
+                    <tr>
+						<td><a href="#">Nested Table</a></td>
+						<td>Demo Continued</td>
+					</tr>
+					</tbody>	
                 </table>
             </td>
-        </tr>
-        <tr>
+			
             <td>
-                <table border="1" cellpadding="5" cellspacing="0">
-                    <tr>
-                        <th>Nested Table 3</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <ul>
-                                <li>List item 1</li>
-                                <li>List item 2</li>
-                                <li>List item 3</li>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table border="1" cellpadding="5" cellspacing="0">
+                <table border="1" cellspacing="0" align="center" width="80%">
                     <tr>
                         <th>Nested Table 4</th>
                     </tr>
